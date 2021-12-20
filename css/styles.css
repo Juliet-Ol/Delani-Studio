@@ -1,15 +1,18 @@
-/* Container holding the image and the text */
+
+
+.box {
+  background-image: url(../image/delani1.jpg);
+  width: 100%; 
+  padding: 200px 200px;
+  color: white;
+  
+}
+
 .container {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
+
+  background-image: url(../image/delani4.jpg);
+  padding: 200px 100px;
+  margin: 100px;
 
 
-/* Centered text */
-/* .centered {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-  } */
+}
