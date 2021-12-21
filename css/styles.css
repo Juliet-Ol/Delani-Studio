@@ -1,11 +1,16 @@
+*,*::before, *::after {
+text-align: center;
+
+}
 
 
 .box {
   background-image: url(../image/delani1.jpg);
   width: 100%; 
-  padding: 200px 200px;
+  padding: 200px 100px;
   color: white;
-  
+  background-size: cover;
+  background-position: center;
 }
 
 .container {
@@ -14,5 +19,10 @@
   padding: 200px 100px;
   margin: 100px;
 
-
+  background-size: cover;
+  background-position: center;
 }
+
+/* .body {
+  text-align: center;
+} */
