@@ -36,15 +36,32 @@ text-align: center;
 }
 
 .im {
-  position: relative;
+  position: absolute;
   padding: 35px 70px;
   min-width: 100%;
   min-height: 100%;
  
 }
 
-.image {
+.image_portfolio {
 
+  white-space: nowrap;
+  margin-left: 200px;
+  margin-right: 100px;
+  
+  
+	/* margin-left: 1%;
+	margin-right: 1%;
+	/* width: 97%; */
+	/* white-space: nowrap;
+	height: 250px; */
+	/* margin-top: 85px;
+	margin-bottom: 10px; */
+	/* float: left; */
+	/* display: center; */
+  
+  
+  
 
 
 }
