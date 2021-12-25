@@ -2,6 +2,7 @@ $(document).ready(function() {
 
 $("button").click(function() {
     $(".dev_icon").toggle();
+
     $("design_icon").toggle();
     $("product").toggle();
     
