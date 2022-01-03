@@ -1,80 +1,53 @@
-function Icon(dev, design, prod) {
-  this.dev_icon = dev
-  this.design_icon = design
-  this.product = prod
-
-}
 
 
 $(document).ready(function() {
 
-$("button").click(function(event) {
-    event.preventDefault();
-    $(".dev").toggle();
-      $(p).toggle()
+  $("button").click(function() {
+      $(".dev_icon").toggle();
+  $("button").click(function(event) {
+      event.preventDefault();
+      $(".dev").toggle();
+        $(p).toggle()
 
-   
-    
-    }); 
-
-});
-
- $(document).ready(function() {
- $this.ready("button").onClick(function() {
-    $("design_icon").toggle();
-    $(p).toggle()
-
- });
-
-});
- 
- $("button").onClick(function() {
-  $("product").toggle();
-  $(p).toggle()
-    
-});
-
-
-
-
-
-
-// $(document).ready(function() {
-//     const newLocal = $("button").click(function () {
-//     $("product").toggle();
-// });
-
-//     });
-// });
-
-// $(document).ready(function() {
-//     $("button").onClick(function()cancelIdleCallback {
-//         $("product").toggle();
-//     });
-// });
-
-// $(document).ready(function() {
-// $(".image/delani7.jpg").hover(function(){
-//     $(this).stop(true,true).fadeOut()
-// }, function(){
-//     $(this).stop(true,true).fadeIn()
-    
-// });
-
-$(document).ready(function(){
-    $("image/delani7.jpg").hover(function(){
-      $("p").fadeTo("slow", 0.15);
-    });
   });
 
+});
 
+});
 
+(document).ready(function() {
 
-    // $(this).css("background-color","white");
-    // }, function(){
-    //   $(this).css ("background-color, black") 
-    // });
+  $("button").click(function() {
+      $(".design_icon").toggle();
+  $("button").click(function(event) {
+      event.preventDefault();
+      $(".design").toggle();
+        $(p).toggle()
 
+  });
+
+});
+
+});
+
+(document).ready(function() {
+
+  $("button").click(function() {
+      $(".product").toggle();
+  $("button").click(function(event) {
+      event.preventDefault();
+      $(".p").toggle();
+        $(p).toggle()
+
+  });
+
+});
+
+});
+
+  
+
+  
 function alert(){
   var Name = document.getElementById("Name")
   var Email = document.getElementById("Email")
@@ -83,19 +56,59 @@ function alert(){
   if (Name == " ")
    alert("enter name")
 
-   else if (Email == " ") {
+   else if (Email == " ") 
     alert("enter email")
 
-    else (message == " ")
+    else if (message == " ") 
       alert("enter message")
+
+     
+
+    }; 
+    
+ 
+    
+
+    // function myFunction(){
+    //   var text;
+    //   if (confirm("Press a button")){
+    //   text = "we have received your message. Thank you for reaching out to us"
+     
+      
+    // } else  {
+
+    //  text('we have received your message. Thank you for reaching out to us')
+          
+      
+    // }     
+
+    // document.getElementById(submitForm).innerHTML = text;
+
+    // }
+
+//     const newLocal = $(document).ready(function () {
+//   $("submitForm").click(function () {
+//     alert("we have received your message. Thank you for reaching out to us");
+//   });
+// });
   
-}
+
 
 // <submitButton onClick {   
 //   (newFunction) => { }())
 
 //   function (newFunction()) {
-//     submitButton onclick
+//     submitButton click
 //     return 'we have received your message. Thank you for reaching out to us';
 //   }
-}
+
+
+// }
+
+// function myFunction() {
+//   alert('we have received your message. Thank you for reaching out to us')
+// }
+
+// $("#submitForm").click(function() {
+//   alert("'we have received your message. Thank you for reaching out to us'.");
+// });
