@@ -22,6 +22,6 @@ Setup/Installation Requirements Bugs They are currently no known bugs. When you 
 
 Technologies Used HTML CSS Javascript
 
-Support and contact details Incase of any issues contact detail juliet.oluoch@student.moringaschool.com
+Support and contact details Incase of any issues contact  juliet.oluoch@student.moringaschool.com
 
 License Copyright (c) 2021 Juliet Oluoch
