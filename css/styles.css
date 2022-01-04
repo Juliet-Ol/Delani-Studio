@@ -39,16 +39,20 @@ text-align: center;
   margin: 100px;
   background-size: cover;
   background-position: center;
-    
+  color: white;
+      
 }
+
+
 
 
 .im {
   position: absolute;
-  padding: 35px 70px;
-  min-width: 100%;
-  min-height: 100%;
+  padding: 200px 100px;
+  width: 500px;
+  height: 500px;
   background: transparent;
+  justify-self: center;
  
 }
 
@@ -85,7 +89,7 @@ text-align: center;
     left: 0;
     width: 200px;
     height: 200px;
-    background: rgba(0, 0, 0, 0.6);
+    background: rgba(0, 0, 0, 0.234);
     color: white;
     display: flex;
     align-items: center;
@@ -140,10 +144,12 @@ font-size: 15px;
 
 }
 
+
 .button {
  font-size: 10px;
 
 }
+
 
 
 

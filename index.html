@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="css/bootstrap.css" rel="stylesheet" type="text/css" media="all">
+        <script src="css/bootstrap.css" rel="stylesheet" type="text/css" media="all"><</script>
 
      <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
      
@@ -54,7 +54,7 @@
 
              
                     <div class="column ">
-                        <button><img src="image/design_icon.png" alt="DESIGN" onClick="toggle"></button>
+                        <button class="imag"><img src="image/design_icon.png" alt="DESIGN" click="toggle"></button>
                          <h3>DESIGN</h3>                
                             <p class="design_icon">Our design practice offers a full range of services <br> including brand strategy, interaction and visual design <br> and user experience testing.</p>
                                 <p class="design_icon">Throughout your project, our designers create and <br> implement visual design and workflows, solicit user <br> feedback and work with you to make sure what gets built <br> is what is needed.</p>
@@ -62,16 +62,16 @@
                     </div>
 
                         <div class="column">
-                            <button><img src="image/dev_icon.png" alt="DEVELOPMENT" onClick="toggle"></button> 
+                            <button id="dev_icon"><img id="dev_icon"  src="image/dev_icon.png" alt="DEVELOPMENT" click="toggle" ></button> 
                                 <h3>DEVELOPMENT</h3> 
-                                    <P class="dev_icon">All engineers are fluent in the latest enterprise, mobile <br> and web development technologies.</P>
-                                        <p class="dev_icon">They collaborate with your team to write, and improve <br> code on a daily basis, using proven practices such as <br> test-driven development and pair programming.</p>   
+                                    <P class="dev_icon" id="hide_p"> All engineers are fluent in the latest enterprise, mobile <br> and web development technologies.</P>
+                                        <p class="dev_icon" id="hide_p">They collaborate with your team to write, and improve <br> code on a daily basis, using proven practices such as <br> test-driven development and pair programming.</p>   
                     
                         </div>  
                                                      
                   
                             <div class="column">
-                                <button><img src="image/product_icon.png" alt="PRODUCT MANAGEMENT" onClick="toggle"></button>    
+                                <button><img src="image/product_icon.png" alt="PRODUCT MANAGEMENT" click="toggle"></button>    
                                     <h3>PRODUCT MANAGEMENT</h3>
                                         <p class="product">Planning and development is teractive. Because we are <br> constantly coding and testing, the products we build are <br> always ready to go live.</p>
                                             <p class="product">The interactive process allows for changes as business <br> requirements evolve</p>
@@ -159,14 +159,14 @@
                 <label for="Email"></label>
                 <input type="text" placeholder="Email..." name="Email" required> <br>
 
-                <div class=im>
+                
 
                     <label for="message"></label>
                     <input type="text" placeholder ="Your message here..." name="message" required width="200px" height="200px">
 
 
                     <button id="submitForm" click="myFunction">Submit</button>
-            </div>
+            
                        
 
                 
@@ -200,7 +200,7 @@
 
 
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"></script>
+   
 
     <script src="js/scripts.js"></script>   
     <link rel="stylesheet" href="css/styles.css"> 

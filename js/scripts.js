@@ -1,43 +1,40 @@
 
-
 $(document).ready(function() {
-
   $("button").click(function() {
       $(".dev_icon").toggle();
   $("button").click(function(event) {
       event.preventDefault();
       $(".dev").toggle();
-        $(p).toggle()
+        $("p").toggle()
 
   });
 
 });
 
-});
 
+
+(function($) {
 (document).ready(function() {
-
   $("button").click(function() {
       $(".design_icon").toggle();
-  $("button").click(function(event) {
-      event.preventDefault();
-      $(".design").toggle();
-        $(p).toggle()
+  $("button").click(function() {
+      $(this).closest(".design_icon").toggleClass(active);
+      $(this).closest(".design_icon").find(".design_icon").stop().toggle;
 
   });
 
 });
 
 });
+});
 
+(function($){
 (document).ready(function() {
-
   $("button").click(function() {
       $(".product").toggle();
-  $("button").click(function(event) {
-      event.preventDefault();
-      $(".p").toggle();
-        $(p).toggle()
+  $("button").click(function() {      
+      $(".product").toggle();
+        $("p").toggle()
 
   });
 
@@ -45,70 +42,36 @@ $(document).ready(function() {
 
 });
 
-  
+});
+
+});
+
 
   
-function alert(){
+function show(){
   var Name = document.getElementById("Name")
   var Email = document.getElementById("Email")
-  var message = document.getElementById("message")
+  var yourMessage = document.getElementById("message")
 
   if (Name == " ")
-   alert("enter name")
+   show("enter name")
 
    else if (Email == " ") 
-    alert("enter email")
+    show("enter email")
 
-    else if (message == " ") 
-      alert("enter message")
+    else if (yourMessage == " ") 
+      show("your message")
 
-     
-
+    
     }; 
     
+    
+      $("#submitForm").click(function() {
+        alert("'we have received your message. Thank you for reaching out to us'.");
+      });
+       
  
     
 
-    // function myFunction(){
-    //   var text;
-    //   if (confirm("Press a button")){
-    //   text = "we have received your message. Thank you for reaching out to us"
-     
-      
-    // } else  {
+    
 
-    //  text('we have received your message. Thank you for reaching out to us')
-          
-      
-    // }     
-
-    // document.getElementById(submitForm).innerHTML = text;
-
-    // }
-
-//     const newLocal = $(document).ready(function () {
-//   $("submitForm").click(function () {
-//     alert("we have received your message. Thank you for reaching out to us");
-//   });
-// });
-  
-
-
-// <submitButton onClick {   
-//   (newFunction) => { }())
-
-//   function (newFunction()) {
-//     submitButton click
-//     return 'we have received your message. Thank you for reaching out to us';
-//   }
-
-
-// }
-
-// function myFunction() {
-//   alert('we have received your message. Thank you for reaching out to us')
-// }
-
-// $("#submitForm").click(function() {
-//   alert("'we have received your message. Thank you for reaching out to us'.");
-// });
