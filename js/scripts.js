@@ -1,6 +1,7 @@
 
 $(document).ready(function() {
   $("button").click(function() {
+    
       $(".dev_icon").toggle();
   $("button").click(function(event) {
       event.preventDefault();
@@ -47,6 +48,8 @@ $(document).ready(function() {
 });
 
 
+
+
   
 function show(){
   var Name = document.getElementById("Name")
@@ -70,6 +73,10 @@ function show(){
       $("#submitForm").click(function() {
         alert("'we have received your message. Thank you for reaching out to us'.");
       });
+
+
+
+      
 
 
  
