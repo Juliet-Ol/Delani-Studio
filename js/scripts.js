@@ -52,6 +52,7 @@ function show(){
   var Name = document.getElementById("Name")
   var Email = document.getElementById("Email")
   var yourMessage = document.getElementById("message")
+  var submit = document.getElementById(alert)
 
   if (Name == " ")
    show("enter name")
@@ -61,7 +62,7 @@ function show(){
 
     else if (yourMessage == " ") 
       show("your message")
-
+  
     
     }; 
     
@@ -69,9 +70,6 @@ function show(){
       $("#submitForm").click(function() {
         alert("'we have received your message. Thank you for reaching out to us'.");
       });
-       
+
+
  
-    
-
-    
-

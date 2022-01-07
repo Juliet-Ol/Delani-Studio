@@ -97,7 +97,7 @@ text-align: center;
 
    
 
-  .image_img{
+  .image_ima{
     display: block;
     width: 100%;
     white-space: nowrap;
@@ -124,33 +124,15 @@ text-align: center;
     opacity: 1;
   }
 
-  .image_img2{
-    display: block;
-    width: 100%;
-    white-space: nowrap;
-    position: relative
-  }
+  
+
+  
 
 
-  .image_overlay2 {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 200px;
-    height: 200px;
-    background: rgba(0, 0, 0, 0.6);
-    color: white;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    opacity: 0;
-    transition-duration: 0.25s;
-  }
+ 
 
-  .image_overlay2:hover {
-    opacity: 1;
-  }
 
+ 
 
 
 .row {
