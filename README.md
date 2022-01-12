@@ -18,17 +18,14 @@ A portfolio showing the work we have previously done.
 
 A section where you can contact us and we will get back to you.
 
-S**etup/Installation Requirements Bugs** They are currently no known bugs. When you experience a bug contact juliet.oluoch@student.moringaschool.com
+**Setup/Installation Requirements Bugs** They are currently no known bugs. When you experience a bug contact juliet.oluoch@student.moringaschool.com
 
 **Technologies Used **
 
-<<<<<<< HEAD
-Support and contact details Incase of any issues contact  juliet.oluoch@student.moringaschool.com
-=======
 HTML 
 CSS 
 Javascript
->>>>>>> 898986a4c80860760d01a860ea3d013ffb63dd70
+
 
 **Support and contact details** Incase of any issues contact detail juliet.oluoch@student.moringaschool.com
 
